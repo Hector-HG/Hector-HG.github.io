@@ -1,2 +1,6 @@
 # Hector-HG.github.io
-Repositorio de evidencia de Programación Web - Hector Hernandez Guzmán - 15690342
+Portafolio de prácticas para la materia de Programación Web de 8o semestre de la carrera de ISC.
+
+Enero-Junio
+
+Hector Hernandez Guzman
