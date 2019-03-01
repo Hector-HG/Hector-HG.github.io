@@ -2,10 +2,6 @@ body{
 	font-family: 'Montserrat', sans-comic;
 	align: center;
 }
-div#contact{
-	justify-content: space-around;
-	align-items: center;
-}
 .align {
 	float: left;
 	display: block;
@@ -38,8 +34,12 @@ div#white-square{
     padding-bottom: 75px;
     padding-right: 100px;
 }
-.margin{
+.margintop{
 	margin-top: 40px
+}
+.contact{
+	display: flex;
+	justify-content: space-around;
 }
 hr.style {
 	width: 50px;
@@ -48,7 +48,7 @@ hr.style {
 	border: 0px;
 }
 .margin{
-	padding-right: 10px;
+	padding-right: 15px;
 	padding-left: 10px;
 }
 p#paragraph{
