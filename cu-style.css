@@ -35,7 +35,7 @@ div#white-square{
     padding-right: 100px;
 }
 .margintop{
-	margin-top: 40px
+	margin-top: 15px
 }
 .contact{
 	display: flex;
@@ -55,5 +55,18 @@ p#paragraph{
 	text-align: justify;
 }
 h1{
+	text-align: center;
+}
+.alignv{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	padding-top: 16px;
+}
+.padtop{
+	padding-top: 20px;
+}
+table{
+	width: 100%;
 	text-align: center;
 }
