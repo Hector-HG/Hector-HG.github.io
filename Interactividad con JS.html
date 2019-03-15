@@ -2,20 +2,38 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Interactividad con JS</title>
+	<title>Interactividd con JS: Sieb des Eratosthenes</title>
 	<link rel="stylesheet" href="Interactividad con JS.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-	<div>
+	<div class="justify-content">
 		<div class="left">
-			<div class="lef_small">
+			<div class="input">
 				<p>Schreiben Sie eine Zahl, die gleich 20 oder größer ist</p>
 				<input type="number" min="20" placeholder="Schreiben eine Nummer"></input>
+				<div class="new-number">
+					<button class="new" id="btnAdd">Bestätigen</button>
+					<button class="new">Neue nummer</button>
+				</div>
+				<hr>
 			</div>
-			<div class="right_small"></div>
+			<div id="sieve" class="sieve-style">
+			</div>
 		</div>
-		<div class="right"></div>
+		<div class="right">
+			<button>Multiplos de 2</button>
+			<button>Multiplos de 3</button>
+			<button>Multiplos de 4</button>
+			<button>Multiplos de 5</button>
+			<button>Multiplos de 6</button>
+			<button>Multiplos de 7</button>
+			<button>Multiplos de 8</button>
+			<button>Multiplos de 9</button>
+			<button>Numeros primos</button>
+			<button>Limpiar</button>
+		</div>
 	</div>
+	<script src="Interactividad con JS.js"></script>
 </body>
 </html>
