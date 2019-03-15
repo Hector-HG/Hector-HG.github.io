@@ -39,14 +39,14 @@ body{
 	width: 450px;
 	display: inline-block;
 }
-div.sieve-style>button{
+/*div.sieve-style>button{
 	height: 35px;
 	width: 35px;
 	text-align: center;
 	margin: 5px;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-}
+}*/
 div.right>button{
 	font-family: 'Raleway', sans-serif;
 	height: 35px;
@@ -56,4 +56,21 @@ div.right>button{
 }
 p{
 	font-size: 1em;
+}
+.mult{
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	margin: 5px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+.mult2{
+	height: 35px;
+	width: 35px;
+	background: #bbbbbb;
+	text-align: center;
+	margin: 5px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
 }
