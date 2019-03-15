@@ -7,7 +7,13 @@ if (number>1000) {
 	alert("Es ist viele, besser 1000.");
 	number=1000;
 } else {
-	let number = Number(_number);
+	if (number<20){
+		alert("Es ist reicht nicht, es werden 20.");
+		number=20;
+	}
+	else{
+		let number = Number(_number);
+	}
 }
 
 function prime_nums(){
