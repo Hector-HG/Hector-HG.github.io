@@ -2,6 +2,8 @@ const prime_numbers = 20;
 const max = 1000;
 let _number = prompt("Schreiben Sie eine Zahl, die gleich 20 oder größer ist",20);
 let number = Number(_number);
+let numC = [];
+
 
 if (number>1000) {
 	alert("Es ist viele, besser 1000.");
@@ -21,16 +23,25 @@ function prime_nums(){
 	}
 
 window.onload = function createBtn(){
-	console.log(number);
 	var sieve = document.getElementById("sieve");
 	for (var i = 1; i <= number; i++) {
 		var btn = document.createElement("button");
 		btn.textContent=(i);
-		btn.value=i;
+		btn.value="p"+i;
+		btn.className="mult";
 		sieve.appendChild(btn);
 		}
 	}
+	
+function prime(nummer) {
+	for(i=1; i <= number; i++){
+		if(i % nummer == 0 && numC.includes(i) == false){
+			document.getElementById("p"+i).className="mult"+i;
+			numC.push(i);
+		}
+	}
+}
+
+
 
 	
-
-
