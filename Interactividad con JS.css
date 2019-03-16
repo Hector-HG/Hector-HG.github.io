@@ -22,12 +22,6 @@ body{
 	justify-content: space-around;
 	flex-direction: column;
 }
-.right{
-	width: 120px;
-	display: inline-block;
-	vertical-align: top;
-	box-align: inherit;
-}
 .input{
 	display: flex;
 	justify-content: space-around;
@@ -39,25 +33,25 @@ body{
 	width: 450px;
 	display: inline-block;
 }
-/*div.sieve-style>button{
-	height: 35px;
-	width: 35px;
-	text-align: center;
-	margin: 5px;
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-}*/
-div.right>button{
+button{
 	font-family: 'Raleway', sans-serif;
 	height: 35px;
 	border-radius: 2px;
 	margin: 4px;
 	text-align: center;
 }
+.right{
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 p{
 	font-size: 1em;
 }
 .mult{
+	border-radius: 50%;
+	border: solid transparent;
 	height: 35px;
 	width: 35px;
 	text-align: center;
@@ -66,11 +60,96 @@ p{
 	text-align: center;
 }
 .mult2{
-	height: 35px;
-	width: 35px;
-	background: #bbbbbb;
-	text-align: center;
-	margin: 5px;
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
+	background: #ff5b5b;
+}
+.mult3{
+	background: #ff5b9f;
+}
+.mult4{
+	background: #ff8f5b;
+	}
+.mult5{
+	background: #ff5bf1;
+}
+.mult6{
+	background: #fcff5b;
+}
+.mult7{
+	background: #665bff;
+}
+.mult8{
+	background: #69ff5b;
+}
+.mult9{
+	background: #5bcbff;
+}
+.mult10{
+	background: #5bffb2;
+}
+.mult11{
+	background: #c91b1b;
+}
+.mult12{
+	background: #c91b5e;
+}
+.mult13{
+	background: #c96f1b;
+}
+.mult14{
+	background: #ac1bc9;
+}
+.mult15{
+	background: #a3c91b;
+}
+.mult16{
+	background: #351bc9;
+}
+.mult17{
+	background: #1bc938;
+}
+.mult18{
+	background: #1bc3c9;
+}
+.mult19{
+	background: #f0b1b1;
+}
+.mult20{
+	background: #5c5858;
+}
+.mult21{
+	background: #860000;
+}
+.mult22{
+	background: #86003e;
+}
+.mult23{
+	background: #863100;
+}
+.mult24{
+	background: #860053;
+}
+.mult25{
+	background: #865b00;
+}
+.mult26{
+	background: #600086;
+}
+.mult27{
+	background: #728600;
+}
+.mult28{
+	background: #240086;
+}
+.mult29{
+	background: #168600;
+}
+.mult30{
+	background: #007286;
+}
+.mult31{
+	background: #008669;
+}
+
+.multP{
+	background: #ffffff;
 }
