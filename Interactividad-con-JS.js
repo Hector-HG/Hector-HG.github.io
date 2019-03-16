@@ -5,6 +5,8 @@ let number = Number(_number);
 let numC = [];
 var btnNup = document.getElementById("btnNp");
 var btnCl = document.getElementById("btnC");
+var input = document.getElementById("btnAdd");
+
 
 if (number > 1000) {
 	alert("Es ist viele, besser 1000.");
