@@ -17,7 +17,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: rgba(4, 86, 124, 0.575);
+	background: #31abaf;
 	width: 550px;
 	justify-content: space-around;
 	flex-direction: column;
@@ -35,6 +35,8 @@ body{
 }
 button{
 	font-family: 'Raleway', sans-serif;
+	background: #107986;
+	border: solid transparent;
 	height: 40px;
 	border-radius: 2px;
 	margin: 4px;
@@ -43,6 +45,7 @@ button{
 .right{
 	width: 150px;
 	display: flex;
+	background: #a8d4cd;
 	flex-direction: column;
 	align-items: center;
 }
