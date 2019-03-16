@@ -18,7 +18,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	background: rgba(4, 86, 124, 0.575);
-	width: 450px;
+	width: 550px;
 	justify-content: space-around;
 	flex-direction: column;
 }
@@ -30,12 +30,12 @@ body{
 }
 .sieve-style{
 	align-content: center;
-	width: 450px;
+	width: 500px;
 	display: inline-block;
 }
 button{
 	font-family: 'Raleway', sans-serif;
-	height: 35px;
+	height: 40px;
 	border-radius: 2px;
 	margin: 4px;
 	text-align: center;
@@ -52,8 +52,8 @@ p{
 .mult{
 	border-radius: 50%;
 	border: solid transparent;
-	height: 35px;
-	width: 35px;
+	height: 40px;
+	width: 40px;
 	text-align: center;
 	margin: 5px;
 	font-family: 'Raleway', sans-serif;
